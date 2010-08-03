@@ -1,5 +1,5 @@
 html {
-	background: #eeeeee url('./images/background.jpg') top center no-repeat;
+	background: #eeeeee url('../images/background.jpg') top center no-repeat;
 }
 
 #all {
@@ -24,7 +24,7 @@ a {
 	height:120px;
 	text-indent:-9999px;
 	overflow:hidden;
-	background: url('./images/logo.jpg') center center no-repeat;
+	background: url('../images/logo.jpg') center center no-repeat;
 }
 
 #header p {
@@ -45,7 +45,7 @@ ul#menu li {
 
 ul#menu li.jFlowSelected {
 	border:1px solid #ffffff;
-	background: #ffffff url('./images/list-background.jpg') center center repeat-x;
+	background: #ffffff url('../images/list-background.jpg') center center repeat-x;
 }
 
 #works {
@@ -66,7 +66,7 @@ ul#menu li.jFlowSelected {
 	display:block;
 	width:780px;
 	height:80px;
-	background:#fff url('./images/footer-background.jpg') center bottom no-repeat;
+	background:#fff url('../images/footer-background.jpg') center bottom no-repeat;
 }
 
 #footer p {
