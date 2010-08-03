@@ -1,2 +1,2 @@
-burada uzem için bir tema var
+burada uzem web sitesi için bir tema var
 -----
