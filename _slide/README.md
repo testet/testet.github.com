@@ -1,2 +1,0 @@
-burada slide var
-=======
