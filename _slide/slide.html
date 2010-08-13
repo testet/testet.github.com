@@ -1,0 +1,203 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<META http-equiv=content-type content=text/html;charset=iso-8859-9>
+  <link rel="stylesheet" type="text/css" href="jquery.ad-gallery.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.ad-gallery.js?rand=995"></script>
+  <script type="text/javascript">
+  $(function() {
+    $('img.image1').data('ad-desc', 'Whoa! This description is set through elm.data("ad-desc") instead of using the longdesc attribute.<br>And it contains <strong>H</strong>ow <strong>T</strong>o <strong>M</strong>eet <strong>L</strong>adies... <em>What?</em> That aint what HTML stands for? Man...');
+    $('img.image1').data('ad-title', 'Title through $.data');
+    $('img.image4').data('ad-desc', 'This image is wider than the wrapper, so it has been scaled down');
+    $('img.image5').data('ad-desc', 'This image is higher than the wrapper, so it has been scaled down');
+    var galleries = $('.ad-gallery').adGallery();
+    $('#switch-effect').change(
+      function() {
+        galleries[0].settings.effect = $(this).val();
+        return false;
+      }
+    );
+    $('#toggle-slideshow').click(
+      function() {
+        galleries[0].slideshow.toggle();
+        return false;
+      }
+    );
+  });
+  </script>
+
+  <style type="text/css">
+  * {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Arial, sans-serif;
+    color: #333;
+    line-height: 140%;
+  }
+  select, input, textarea {
+    font-size: 1em;
+  }
+  body {
+    padding: 20px;
+    font-size: 70%;
+    width: 800px;
+  }
+  h2 {
+    margin-top: 1.2em;
+    margin-bottom: 0;
+    padding: 0;
+    border-bottom: 1px dotted #dedede;
+  }
+  h3 {
+    margin-top: 1.2em;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .example {
+    border: 1px solid #CCC;
+    background: #f2f2f2;
+    padding: 10px;
+  }
+  ul {
+    list-style-image:url(list-style.gif);
+  }
+  pre {
+    font-family: "Lucida Console", "Courier New", Verdana;
+    border: 1px solid #CCC;
+    background: #f2f2f2;
+    padding: 10px;
+  }
+  code {
+    font-family: "Lucida Console", "Courier New", Verdana;
+    margin: 0;
+    padding: 0;
+  }
+
+  #gallery {
+    padding: 30px;
+    background: #e1eef5;
+  }
+  </style>
+  <title>bilgisayar müh</title>
+</head>
+<body>
+  <div id="container">
+    <h1>OMÜ Bilgisayar Mühendisligi</h1>
+
+    <div id="gallery" class="ad-gallery">
+      <div class="ad-image-wrapper">
+      </div>
+      <div class="ad-controls">
+      </div>
+      <div class="ad-nav">
+        <div class="ad-thumbs">
+          <ul class="ad-thumb-list">
+<li><a href="images/1.jpg">
+		<img src="images/thumbs/t1.jpg" title="image slide denemesi" longdesc="resim 1 icin yorum yazicam">
+		</a></li><li><a href="images/2.jpg">
+		<img src="images/thumbs/t2.jpg" title="image slide denemesi" longdesc="resim 2 icin yorum yazicam">
+		</a></li><li><a href="images/3.jpg">
+		<img src="images/thumbs/t3.jpg" title="image slide denemesi" longdesc="resim 3 icin yorum yazicam">
+		</a></li><li><a href="images/4.jpg">
+		<img src="images/thumbs/t4.jpg" title="image slide denemesi" longdesc="resim 4 icin yorum yazicam">
+		</a></li><li><a href="images/5.jpg">
+		<img src="images/thumbs/t5.jpg" title="image slide denemesi" longdesc="resim 5 icin yorum yazicam">
+		</a></li><li><a href="images/6.jpg">
+		<img src="images/thumbs/t6.jpg" title="image slide denemesi" longdesc="resim 6 icin yorum yazicam">
+		</a></li><li><a href="images/7.jpg">
+		<img src="images/thumbs/t7.jpg" title="image slide denemesi" longdesc="resim 7 icin yorum yazicam">
+		</a></li><li><a href="images/8.jpg">
+		<img src="images/thumbs/t8.jpg" title="image slide denemesi" longdesc="resim 8 icin yorum yazicam">
+		</a></li><li><a href="images/9.jpg">
+		<img src="images/thumbs/t9.jpg" title="image slide denemesi" longdesc="resim 9 icin yorum yazicam">
+		</a></li><li><a href="images/10.jpg">
+		<img src="images/thumbs/t10.jpg" title="image slide denemesi" longdesc="resim 10 icin yorum yazicam">
+		</a></li><li><a href="images/11.jpg">
+		<img src="images/thumbs/t11.jpg" title="image slide denemesi" longdesc="resim 11 icin yorum yazicam">
+		</a></li><li><a href="images/12.jpg">
+		<img src="images/thumbs/t12.jpg" title="image slide denemesi" longdesc="resim 12 icin yorum yazicam">
+		</a></li><li><a href="images/13.jpg">
+		<img src="images/thumbs/t13.jpg" title="image slide denemesi" longdesc="resim 13 icin yorum yazicam">
+		</a></li><li><a href="images/14.jpg">
+		<img src="images/thumbs/t14.jpg" title="image slide denemesi" longdesc="resim 14 icin yorum yazicam">
+		</a></li><li><a href="images/15.jpg">
+		<img src="images/thumbs/t15.jpg" title="image slide denemesi" longdesc="resim 15 icin yorum yazicam">
+		</a></li><li><a href="images/16.jpg">
+		<img src="images/thumbs/t16.jpg" title="image slide denemesi" longdesc="resim 16 icin yorum yazicam">
+		</a></li><li><a href="images/17.jpg">
+		<img src="images/thumbs/t17.jpg" title="image slide denemesi" longdesc="resim 17 icin yorum yazicam">
+		</a></li><li><a href="images/18.jpg">
+		<img src="images/thumbs/t18.jpg" title="image slide denemesi" longdesc="resim 18 icin yorum yazicam">
+		</a></li><li><a href="images/19.jpg">
+		<img src="images/thumbs/t19.jpg" title="image slide denemesi" longdesc="resim 19 icin yorum yazicam">
+		</a></li><li><a href="images/20.jpg">
+		<img src="images/thumbs/t20.jpg" title="image slide denemesi" longdesc="resim 20 icin yorum yazicam">
+		</a></li><li><a href="images/21.jpg">
+		<img src="images/thumbs/t21.jpg" title="image slide denemesi" longdesc="resim 21 icin yorum yazicam">
+		</a></li><li><a href="images/22.jpg">
+		<img src="images/thumbs/t22.jpg" title="image slide denemesi" longdesc="resim 22 icin yorum yazicam">
+		</a></li><li><a href="images/23.jpg">
+		<img src="images/thumbs/t23.jpg" title="image slide denemesi" longdesc="resim 23 icin yorum yazicam">
+		</a></li><li><a href="images/24.jpg">
+		<img src="images/thumbs/t24.jpg" title="image slide denemesi" longdesc="resim 24 icin yorum yazicam">
+		</a></li><li><a href="images/25.jpg">
+		<img src="images/thumbs/t25.jpg" title="image slide denemesi" longdesc="resim 25 icin yorum yazicam">
+		</a></li><li><a href="images/26.jpg">
+		<img src="images/thumbs/t26.jpg" title="image slide denemesi" longdesc="resim 26 icin yorum yazicam">
+		</a></li><li><a href="images/27.jpg">
+		<img src="images/thumbs/t27.jpg" title="image slide denemesi" longdesc="resim 27 icin yorum yazicam">
+		</a></li><li><a href="images/28.jpg">
+		<img src="images/thumbs/t28.jpg" title="image slide denemesi" longdesc="resim 28 icin yorum yazicam">
+		</a></li><li><a href="images/29.jpg">
+		<img src="images/thumbs/t29.jpg" title="image slide denemesi" longdesc="resim 29 icin yorum yazicam">
+		</a></li><li><a href="images/30.jpg">
+		<img src="images/thumbs/t30.jpg" title="image slide denemesi" longdesc="resim 30 icin yorum yazicam">
+		</a></li><li><a href="images/31.jpg">
+		<img src="images/thumbs/t31.jpg" title="image slide denemesi" longdesc="resim 31 icin yorum yazicam">
+		</a></li><li><a href="images/32.jpg">
+		<img src="images/thumbs/t32.jpg" title="image slide denemesi" longdesc="resim 32 icin yorum yazicam">
+		</a></li><li><a href="images/33.jpg">
+		<img src="images/thumbs/t33.jpg" title="image slide denemesi" longdesc="resim 33 icin yorum yazicam">
+		</a></li><li><a href="images/34.jpg">
+		<img src="images/thumbs/t34.jpg" title="image slide denemesi" longdesc="resim 34 icin yorum yazicam">
+		</a></li><li><a href="images/35.jpg">
+		<img src="images/thumbs/t35.jpg" title="image slide denemesi" longdesc="resim 35 icin yorum yazicam">
+		</a></li><li><a href="images/36.jpg">
+		<img src="images/thumbs/t36.jpg" title="image slide denemesi" longdesc="resim 36 icin yorum yazicam">
+		</a></li><li><a href="images/37.jpg">
+		<img src="images/thumbs/t37.jpg" title="image slide denemesi" longdesc="resim 37 icin yorum yazicam">
+		</a></li><li><a href="images/38.jpg">
+		<img src="images/thumbs/t38.jpg" title="image slide denemesi" longdesc="resim 38 icin yorum yazicam">
+		</a></li><li><a href="images/39.jpg">
+		<img src="images/thumbs/t39.jpg" title="image slide denemesi" longdesc="resim 39 icin yorum yazicam">
+		</a></li><li><a href="images/40.jpg">
+		<img src="images/thumbs/t40.jpg" title="image slide denemesi" longdesc="resim 40 icin yorum yazicam">
+		</a></li><li><a href="images/41.jpg">
+		<img src="images/thumbs/t41.jpg" title="image slide denemesi" longdesc="resim 41 icin yorum yazicam">
+		</a></li><li><a href="images/42.jpg">
+		<img src="images/thumbs/t42.jpg" title="image slide denemesi" longdesc="resim 42 icin yorum yazicam">
+		</a></li><li><a href="images/43.jpg">
+		<img src="images/thumbs/t43.jpg" title="image slide denemesi" longdesc="resim 43 icin yorum yazicam">
+		</a></li><li><a href="images/44.jpg">
+		<img src="images/thumbs/t44.jpg" title="image slide denemesi" longdesc="resim 44 icin yorum yazicam">
+		</a></li><li><a href="images/45.jpg">
+		<img src="images/thumbs/t45.jpg" title="image slide denemesi" longdesc="resim 45 icin yorum yazicam">
+		</a></li>          </ul>
+        </div>
+      </div>
+<!--
+    </div>
+    <p>Efekt seç: <select id="switch-effect">
+      <option value="slide-hori">Slide horizontal</option>
+      <option value="slide-vert">Slide vertical</option>
+      <option value="resize">Shrink/grow</option>
+      <option value="fade">Fade</option>
+      <option value="">None</option>
+    </select> |
+    <a href="#" id="toggle-slideshow">Kaydet</a>
+    </p>
+
+	<a href="http://www.egonomik.com/">Egonomik.com 2010</a>
+  </div>
+-->
+</body>
+</html>
